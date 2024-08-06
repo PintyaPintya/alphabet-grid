@@ -29,7 +29,7 @@ main {
   margin: 0 auto;
 }
 
-.title,
+/* .title,
 .index {
   display: flex;
   justify-content: space-between;
@@ -69,7 +69,7 @@ main {
   margin: 15px 0 0 0;
 }
 
-
+ */
 
 
 
@@ -94,7 +94,6 @@ section h1{
 }
 section ul{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
