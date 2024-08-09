@@ -14,13 +14,9 @@ li {
   padding: 0;
 }
 
-#container {
-  width: 100%;
-}
-
 
 main {
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -38,7 +34,6 @@ section{
   position: sticky;
   align-self: flex-start;    
   top: 0;
-  z-index: 1000;
   background-color: #f6f6f6;
 }
 section h1{
@@ -115,10 +110,7 @@ hr{
 
 
 @media (max-width: 1024px) {
-  main{
-    width: 100%;
-    padding: 0 20px;
-  }
+  
   .content{
     display: block;
   }
@@ -129,6 +121,7 @@ hr{
   
   .alpha-index ul {
     display: block;
+    justify-self: end;
   }
   .alpha-index li {
     margin-bottom: 5px;
@@ -145,10 +138,7 @@ hr{
 
 
 @media (max-width: 768px) {
-  main{
-    width: 100%;
-    padding: 0 20px;
-  }
+  
   section h1{
     font-size: 20px;
   }
