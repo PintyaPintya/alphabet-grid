@@ -118,6 +118,9 @@ hr{
     display: flex;
     flex-direction: row-reverse;
   }
+  .alpha-index{
+    background-color: white;
+  }
   
   .alpha-index ul {
     display: block;
