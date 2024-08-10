@@ -1,0 +1,743 @@
+<style>
+  * {
+font-family: "Inter", sans-serif;
+box-sizing: border-box;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+li {
+margin: 0;
+padding: 0;
+}
+
+#abc {
+width: 100%;
+}
+
+
+main {
+width: 85%;
+margin: 0 auto;
+}
+
+
+.content{
+display: flex;
+margin-top: 50px;
+}
+section{
+width: 100%;
+}
+.alpha-index{
+margin-top: 50px;
+padding: 10px;
+position: sticky;
+align-self: flex-start;    
+top: 0;
+z-index: 1000;
+background-color: #f6f6f6;
+}
+section h1{
+color: #393838;
+}
+section ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+section li {
+margin: 0;
+padding: 4px 11px;
+font-size: 15px;
+font-weight: 400;
+position: relative;
+}
+
+
+section a {
+display: block; 
+height: 100%; 
+width: 100%; 
+text-decoration: none;
+color: #161616;  
+}
+
+section li:hover, section li:last-child:hover {
+cursor: pointer;
+border-radius: 2px;
+background-color: white;
+transition: all .2s ease-in;
+}
+
+section li:hover a, section li:last-child:hover {
+color: white;
+}
+
+
+.alphabet > div{
+margin-top: 30px;
+}
+.alphabet h3{
+font-size: 16px;
+font-weight: 600;
+color: #161616;
+}
+.brands{
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+gap: 15px 0;
+}
+.brands span{
+font-size: 13px;
+font-weight: 400;
+color: #161616;
+}
+.brands span:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+hr{
+margin-top: 40px;
+}
+.alpha-index li:first-child:hover{
+cursor: default;
+background-color: white;
+color: #161616;
+}
+
+.rte ul li:before {
+  background: #00000000;
+}
+
+
+@media (max-width: 1024px) {
+main{
+width: 100%;
+padding: 0 20px;
+}
+.content{
+display: block;
+}
+.alphabets{
+display: flex;
+flex-direction: row-reverse;
+}
+
+.alpha-index ul {
+display: block;
+}
+.alpha-index li {
+margin-bottom: 5px;
+text-align: center;
+}
+.alpha-index li:first-child{
+display: none;
+}
+.alphabet-container{
+flex-grow: 4;
+}
+}
+
+
+
+@media (max-width: 768px) {
+main{
+width: 100%;
+padding: 0 20px;
+}
+.alpha-index{
+  margin-left: 20px;
+}
+section h1{
+font-size: 20px;
+}
+.brands, .brands span{
+display: block;
+}
+hr{
+display: none;
+}
+.alphabet h3{
+background-color: #f5f5f5;
+}
+.brands span{
+margin-top: 10px;
+}
+}
+  </style>
+
+
+<div id="abc">
+  <main>
+    <div class="content">
+      <section>
+        <h1>Shop by Brand</h1>
+        <div class="alphabets">
+          <div class="alpha-index">
+            <ul>
+              <li>All Brands:</li>
+              <li><a href="#5">5</a></li>
+              <li><a href="#A">A</a></li>
+              <li><a href="#B">B</a></li>
+              <li><a href="#C">C</a></li>
+              <li><a href="#D">D</a></li>
+              <li><a href="#E">E</a></li>
+              <li><a href="#F">F</a></li>
+              <li><a href="#G">G</a></li>
+              <li><a href="#H">H</a></li>
+              <li><a href="#I">I</a></li>
+              <li><a href="#J">J</a></li>
+              <li><a href="#K">K</a></li>
+              <li><a href="#L">L</a></li>
+              <li><a href="#M">M</a></li>
+              <li><a href="#N">N</a></li>
+              <li><a href="#O">O</a></li>
+              <li><a href="#P">P</a></li>
+              <li><a href="#Q">Q</a></li>
+              <li><a href="#R">R</a></li>
+              <li><a href="#S">S</a></li>
+              <li><a href="#T">T</a></li>
+              <li><a href="#U">U</a></li>
+              <li><a href="#V">V</a></li>
+              <li><a href="#W">W</a></li>
+              <li><a href="#X">X</a></li>
+              <li><a href="#Y">Y</a></li>
+              <li><a href="#Z">Z</a></li>
+              <li>#</li>
+            </ul>
+          </div>
+          <div class="alphabet-container">
+            <div class="alphabet" id="5">
+              <div>
+                <h3>5</h3>
+                <div class="brands">
+                  <span>50 Cent</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="A">
+              <div>
+                <h3>A</h3>
+                <div class="brands">
+                  <span>Abercrombie &amp; Fitch</span>
+                  <span>Acqua Di Parma</span>
+                  <span>Adam Levine</span>
+                  <span>Adem</span>
+                  <span>Adidas</span>
+                  <span>Adrienne Vittadini</span>
+                  <span>Aeropostale</span>
+                  <span>Afnan</span>
+                  <span>Agent Provacateur</span>
+                  <span>Ahmed Al Maghribi</span>
+                  <span>Air Val International</span>
+                  <span>Ajmal</span>
+                  <span>Al Haramain</span>
+                  <span>Al Wataniah</span>
+                  <span>Alexander Mcqueen</span>
+                  <span>Alfred Sung</span>
+                  <span>Alyssa Ashley</span>
+                  <span>Amouage</span>
+                  <span>Amouroud</span>
+                  <span>Animale Parfums</span>
+                  <span>Anna Sui</span>
+                  <span>Anne Klein</span>
+                  <span>Annick Goutal</span>
+                  <span>Antonio Banderas</span>
+                  <span>Antonio Puig</span>
+                  <span>Anucci</span>
+                  <span>Aquolina</span>
+                  <span>Arabian Eagle</span>
+                  <span>Aramis</span>
+                  <span>Ariana Grande</span>
+                  <span>Armaf</span>
+                  <span>Armand Basi</span>
+                  <span>Atelier Cologne</span>
+                  <span>Atkinsons</span>
+                  <span>Attar</span>
+                  <span>Aubusson</span>
+                  <span>Azzaro</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="B">
+              <div>
+                <h3>B</h3>
+                <div class="brands">
+                  <span>Balenciaga</span>
+                  <span>Balmain</span>
+                  <span>Banana Republic</span>
+                  <span>BDK Parfums</span>
+                  <span>Bebe</span>
+                  <span>Benetton</span>
+                  <span>Bentley</span>
+                  <span>Betsey Johnson</span>
+                  <span>Beyonce</span>
+                  <span>Bharara</span>
+                  <span>Bijan</span>
+                  <span>Bill Blass</span>
+                  <span>Blumarine</span>
+                  <span>Boadicea The Victorious</span>
+                  <span>Bob Mackie</span>
+                  <span>Body Fantasies</span>
+                  <span>Bond No 9</span>
+                  <span>Bond No. 9</span>
+                  <span>Borghese</span>
+                  <span>Bottega Veneta</span>
+                  <span>Boucheron</span>
+                  <span>Brioni</span>
+                  <span>Britney Spears</span>
+                  <span>Burberry</span>
+                  <span>Bvlgari</span>
+                  <span>Byblos</span>
+                  <span>Byredo</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="C">
+              <div>
+                <h3>C</h3>
+                <div class="brands">
+                  <span>Cacharel</span>
+                  <span>Caesar's World</span>
+                  <span>Calvin Klein</span>
+                  <span>Carolina Herrera</span>
+                  <span>Caron</span>
+                  <span>Cartier</span>
+                  <span>Casino Parfums</span>
+                  <span>Cassini</span>
+                  <span>Chloe</span>
+                  <span>Chopard</span>
+                  <span>Christian Audigier</span>
+                  <span>Christian Dior</span>
+                  <span>Clean</span>
+                  <span>Clinique</span>
+                  <span>Clive Christian</span>
+                  <span>Coach</span>
+                  <span>Cofinluxe</span>
+                  <span>Comptoir Sud Pacifique</span>
+                  <span>Coty</span>
+                  <span>Courreges</span>
+                  <span>Creed</span>
+                  <span>Cristiano Ronaldo</span>
+                  <span>Cuba</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="D">
+              <div>
+                <h3>D</h3>
+                <div class="brands">
+                  <span>D.S. &amp; Durga</span>
+                  <span>Daddy Yankee</span>
+                  <span>Dana</span>
+                  <span>David Beckham</span>
+                  <span>David Yurman</span>
+                  <span>Davidoff</span>
+                  <span>Demeter</span>
+                  <span>Derek Lam</span>
+                  <span>Designer Parfums Ltd</span>
+                  <span>Desigual</span>
+                  <span>Diana Ross</span>
+                  <span>Diesel</span>
+                  <span>Disney</span>
+                  <span>Dolce &amp; Gabbana</span>
+                  <span>Donald Trump</span>
+                  <span>Donna Karan</span>
+                  <span>Dsquared2</span>
+                  <span>Dumont</span>
+                  <span>Dunhill</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="E">
+              <div>
+                <h3>E</h3>
+                <div class="brands">
+                  <span>Eclectic Collections</span>
+                  <span>Ed Hardy</span>
+                  <span>Elie Saab</span>
+                  <span>Elizabeth &amp; James</span>
+                  <span>Elizabeth Arden</span>
+                  <span>Elizabeth Taylor</span>
+                  <span>Emporio Armani</span>
+                  <span>Escada</span>
+                  <span>Esprit</span>
+                  <span>Estelle</span>
+                  <span>Estee Lauder</span>
+                  <span>Etat Libre d'Orange</span>
+                  <span>Etnies</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="F">
+              <div>
+                <h3>F</h3>
+                <div class="brands">
+                  <span>Fendi</span>
+                  <span>Floyd Rose</span>
+                  <span>Fossil</span>
+                  <span>Fragrance World</span>
+                  <span>Franck Olivier</span>
+                  <span>Frankie Morello</span>
+                  <span>Frederic Malle</span>
+                  <span>Fresh</span>
+                  <span>Fujiya</span>
+                  <span>Furla</span>
+                  <span>Fendi</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="G">
+              <div>
+                <h3>G</h3>
+                <div class="brands">
+                  <span>Gabriele Strehle</span>
+                  <span>Gai Mattiolo</span>
+                  <span>Gaultier</span>
+                  <span>Giorgio Armani</span>
+                  <span>Givenchy</span>
+                  <span>Gucci</span>
+                  <span>Guerlain</span>
+                  <span>Guess</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="H">
+              <div>
+                <h3>H</h3>
+                <div class="brands">
+                  <span>Hanae Mori</span>
+                  <span>Harajuku Lovers</span>
+                  <span>Herve Leger</span>
+                  <span>Hugo Boss</span>
+                  <span>Hush Puppies</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="I">
+              <div>
+                <h3>I</h3>
+                <div class="brands">
+                  <span>Iconix</span>
+                  <span>Igor</span>
+                  <span>Issey Miyake</span>
+                  <span>It’s A 10</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="J">
+              <div>
+                <h3>J</h3>
+                <div class="brands">
+                  <span>Jack Spade</span>
+                  <span>James Bond</span>
+                  <span>Jean Paul Gaultier</span>
+                  <span>Jil Sander</span>
+                  <span>Jimmy Choo</span>
+                  <span>Jo Malone</span>
+                  <span>John Varvatos</span>
+                  <span>Jovan</span>
+                  <span>Juicy Couture</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="K">
+              <div>
+                <h3>K</h3>
+                <div class="brands">
+                  <span>Kenzo</span>
+                  <span>Kiehl's</span>
+                  <span>Kilo</span>
+                  <span>Kiehl's Since 1851</span>
+                  <span>Kokoriko</span>
+                  <span>Korz</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="L">
+              <div>
+                <h3>L</h3>
+                <div class="brands">
+                  <span>Lab Series</span>
+                  <span>Lacoste</span>
+                  <span>Lancôme</span>
+                  <span>Lanvin</span>
+                  <span>Laura Mercier</span>
+                  <span>Le Labo</span>
+                  <span>Longchamp</span>
+                  <span>Louis Vuitton</span>
+                  <span>Lynx</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="M">
+              <div>
+                <h3>M</h3>
+                <div class="brands">
+                  <span>Marc Jacobs</span>
+                  <span>Maria Sharapova</span>
+                  <span>Maison Francis Kurkdjian</span>
+                  <span>Mario Badescu</span>
+                  <span>Martin Margiela</span>
+                  <span>Mary Kay</span>
+                  <span>Max Mara</span>
+                  <span>Miller Harris</span>
+                  <span>Missoni</span>
+                  <span>Montblanc</span>
+                  <span>Moroccanoil</span>
+                  <span>Moschino</span>
+                  <span>Mugler</span>
+                  <span>Munoz</span>
+                  <span>Murad</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="N">
+              <div>
+                <h3>N</h3>
+                <div class="brands">
+                  <span>Naomi Campbell</span>
+                  <span>Napoleon Perdis</span>
+                  <span>Narciso Rodriguez</span>
+                  <span>Neil Barrett</span>
+                  <span>Nina Ricci</span>
+                  <span>Nuxe</span>
+                  <span>NYX</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="O">
+              <div>
+                <h3>O</h3>
+                <div class="brands">
+                  <span>Olivier Durbano</span>
+                  <span>Orofluido</span>
+                  <span>Oscar de la Renta</span>
+                  <span>Oud Paris</span>
+                  <span>Oudh Al Haya</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="P">
+              <div>
+                <h3>P</h3>
+                <div class="brands">
+                  <span>Paco Rabanne</span>
+                  <span>Paul Smith</span>
+                  <span>Penhaligon's</span>
+                  <span>Philosophy</span>
+                  <span>Prada</span>
+                  <span>Prosper</span>
+                  <span>Puma</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="Q">
+              <div>
+                <h3>Q</h3>
+                <div class="brands">
+                  <span>Q. 1</span>
+                  <span>Qasr Al Murjan</span>
+                  <span>Quiksilver</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="R">
+              <div>
+                <h3>R</h3>
+                <div class="brands">
+                  <span>Ralph Lauren</span>
+                  <span>Raymond Weil</span>
+                  <span>Reebok</span>
+                  <span>Revlon</span>
+                  <span>Rihanna</span>
+                  <span>Robert Graham</span>
+                  <span>Roberto Cavalli</span>
+                  <span>Rochas</span>
+                  <span>Roger &amp; Gallet</span>
+                  <span>Rogue</span>
+                  <span>Rossa</span>
+                  <span>Rituals</span>
+                  <span>Royal Crown</span>
+                  <span>Rudy</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="S">
+              <div>
+                <h3>S</h3>
+                <div class="brands">
+                  <span>S.T. Dupont</span>
+                  <span>Saint Laurent</span>
+                  <span>Salvatore Ferragamo</span>
+                  <span>Sancal</span>
+                  <span>Santa Maria Novella</span>
+                  <span>Sara Happ</span>
+                  <span>Scent</span>
+                  <span>Sean John</span>
+                  <span>Serge Lutens</span>
+                  <span>Shakira</span>
+                  <span>Shiseido</span>
+                  <span>SkinCeuticals</span>
+                  <span>Smashbox</span>
+                  <span>So Saint Germain</span>
+                  <span>Soma</span>
+                  <span>Steve Madden</span>
+                  <span>Stella McCartney</span>
+                  <span>StriVectin</span>
+                  <span>Stuart Weitzman</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="T">
+              <div>
+                <h3>T</h3>
+                <div class="brands">
+                  <span>Tacori</span>
+                  <span>Tag Heuer</span>
+                  <span>Tiffany &amp; Co.</span>
+                  <span>Tod's</span>
+                  <span>Tom Ford</span>
+                  <span>Tommy Hilfiger</span>
+                  <span>Tory Burch</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="U">
+              <div>
+                <h3>U</h3>
+                <div class="brands">
+                  <span>U.S. Polo Assn.</span>
+                  <span>Urban Decay</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="V">
+              <div>
+                <h3>V</h3>
+                <div class="brands">
+                  <span>Valentino</span>
+                  <span>Van Cleef &amp; Arpels</span>
+                  <span>Vera Wang</span>
+                  <span>Versace</span>
+                  <span>Viktor &amp; Rolf</span>
+                  <span>Vince Camuto</span>
+                  <span>Vichy</span>
+                  <span>Vera Wang</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="W">
+              <div>
+                <h3>W</h3>
+                <div class="brands">
+                  <span>Wella</span>
+                  <span>Wiley X</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="X">
+              <div>
+                <h3>X</h3>
+                <div class="brands">
+                  <span>XOXO</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="Y">
+              <div>
+                <h3>Y</h3>
+                <div class="brands">
+                  <span>Yves Saint Laurent</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="alphabet" id="Z">
+              <div>
+                <h3>Z</h3>
+                <div class="brands">
+                  <span>Zendaya</span>
+                  <span>Zimmerli</span>
+                  <span>Zoella</span>
+                </div>
+                <hr>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+</div>
+      
+    </main>
+</div>
+  
+
+
+<script>
+  const mediaQuery = window.matchMedia('(max-width: 1024px)');
+
+  function handleScroll(e) {
+    e.preventDefault();
+
+    let targetElement;
+    if (e.target.tagName === 'A') {
+      targetElement = e.target;
+    } else if (e.target.tagName === 'LI') {
+      targetElement = e.target.querySelector('a');
+    }
+
+    if (targetElement) {
+      const targetId = targetElement.getAttribute('href').substring(1);
+      const scrollTarget = document.getElementById(targetId);
+
+      if (scrollTarget) {
+        const headerOffset = mediaQuery.matches ? 5 : 60;
+
+        const elementPosition = scrollTarget.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }
+  }
+  
+  document.querySelectorAll('section li').forEach(li => {
+    li.addEventListener('click', handleScroll);
+  });
+ 
+  
+</script>
