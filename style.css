@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-ul {
+.alpha-index ul  {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -39,7 +39,7 @@ section{
 section h1{
   color: #393838;
 }
-section ul{
+.alpha-index ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
